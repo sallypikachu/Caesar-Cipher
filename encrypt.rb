@@ -21,7 +21,7 @@ class CaesarCipher
 end
 
 class ComputerCipher
-  ASCII = ('!'..'~').to_a
+  ASCII = (' '..'~').to_a
 
   def initialize(shift)
     @key = ASCII.join
